@@ -1,0 +1,571 @@
+body {
+    border: 2px solid white;
+}
+
+#header .main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 250, 250, .18);
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 89787;
+}
+
+#header .main-header .logo {
+    margin-left: 20px;
+}
+
+.main-header .menu ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-header .menu ul li:hover {
+    color: brown;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.menu select:hover {
+    color: brown;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.menu select {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    width: 50%;
+}
+
+.menu .select {
+     padding: 0px 10px !important;
+    margin: 0px 5px !important;
+}
+
+.logo h1 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#video video {
+    width: 100%;
+    max-height: 100%;
+}
+
+#video {
+    position: relative;
+    z-index: 898;
+}
+
+.video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+}
+
+.text1 {
+    font-size: 32px;
+    width: 40%;
+    color: #e3dbdb;
+    position: absolute;
+    bottom: 450px;
+    margin-left: 40px;
+}
+
+
+.text h5 {
+    margin-top: 13px;
+    font-size: 19px;
+    font-family: ui-monospace;
+    text-transform: lowercase;
+}
+
+.text1 h1 {
+    padding-bottom: 10px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text1 h5 {
+    font-size: 17px;
+    font-family: math;
+}
+
+.text1 span {
+    color: blue;
+}
+
+.text1 span:hover {
+    color: brown;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.text1 {
+    z-index: 999999;
+}
+
+/* .text1 h5 span:hover {
+            color: yellow;
+            cursor: pointer;} */
+
+
+/* page2 */
+
+#boxs .bg {
+    background-image: url(meetings-bg.jpg);
+}
+
+#boxs .box1 {
+    display: flex;
+    justify-content: center;
+}
+
+#boxs .box1 .box {
+    background-image: url(service-item-bg.jpg);
+    color: white;
+    width: 30%;
+    border-radius: 36px;
+    padding: 56px;
+    margin: 45px;
+    margin-top: -216px;
+    z-index: 9687;
+}
+
+.box1 .box {
+    text-align: center;
+}
+
+.box h1 {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.box p {
+    margin-top: 33px;
+    font-size: 21px;
+}
+
+#boxs .button1 button {
+    padding: 15px 40px;
+    background-color: brown;
+    border: none;
+    margin: auto;
+    display: table;
+    border-radius: 32px;
+    margin-top: 28px;
+
+}
+
+.box .button1 {
+    position: absolute;
+    top: -60px;
+    left: 5;
+}
+
+.box {
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    color: #f3eeee;
+    font-family: monospace;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+
+.boxin {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxin .box11 {
+    width: 22%;
+    margin: 10px;
+    border-radius: 25px;
+    margin-top: 60px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.box11 {
+    position: relative;
+}
+
+.box11 img {
+    width: 300px;
+    border-radius: 26px;
+
+}
+
+.box11 h1 {
+    margin-left: 14px;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 14px;
+}
+
+.box11 h3 {
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.box11 h2 {
+    font-size: 20px;
+    vertical-align: text-top;
+    font-family: system-ui;
+    padding-top: 15px;
+}
+ 
+.box11 h5 {
+    font-size: 20px;
+    margin-left: 14px;
+    text-align: left;
+    padding-top: 4px;
+}
+
+.box11 p {
+    font-family: system-ui;
+    width: 207px;
+    margin-left: 43px;
+    padding-top: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.boxin .hh {
+    height: 390px;
+    width: 275px;
+}
+
+.boxin .height {
+    height: 300px;
+    
+}
+
+.boxin .hh1 {
+    height: 350px;
+    width: 300px;
+}
+
+.boxin .hh2 {
+    height: 400px;
+    width: 300px;
+    margin-left: 235px;
+    margin-top: -20px;
+}
+
+.boxin .hh3 {
+    height: 350px;
+    width: 300px;
+    margin-top: -20px;
+}
+
+.box11 a {
+    padding: 10px 30px;
+    background-color: brown;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 23px;
+}
+
+/* page3 */
+#page3 {
+    background-image: url(apply-bg.jpg);
+}
+
+#page3 {
+    position: relative;
+}
+
+.main-page3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 114px;
+    padding-bottom: 90px;
+    margin-left: 72px;
+    background-color: rgba(250, 250, 250, .18);
+
+}
+
+.main-page3 .box3 {
+    width: 425px;
+}
+
+.box2 {
+    font-family: sans-serif;
+    width: 478px;
+    background-color: rgba(250, 250, 250, .18);
+    color: white;
+    height: 221px;
+    text-transform: capitalize;
+    margin-left: 67px;
+    text-align: center;
+}
+
+.height {
+    height: 485px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.box2 a {
+    padding: 10px 18px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.color a {
+    background-color: rgb(206, 221, 69);
+}
+
+.box2 a:hover {
+    background-color: black;
+    transition: all 1s;
+    border: 1px solid yellow;
+}
+
+.box2 h1 {
+    padding-top: 40px;
+}
+
+.box2 p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.box3 h5 {
+    color: yellow;
+    padding: 30px 15px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.height p {
+    font-family: math;
+    vertical-align: text-top;
+    padding: 30px;
+    margin-top: -33px;
+    margin-left: 7px;
+}
+
+.height h2 {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-left: -33px;
+    padding: 10px;
+    margin-top: -14px;
+}
+
+.height h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 28px;
+}
+
+/* page4 */
+#page4 {
+    background-image: url(meetings-bg.jpg);
+}
+
+#page4 .heading {
+    text-align: start;
+    border-bottom: 1px solid white;
+    font-size: 29px;
+    font-family: auto;
+    width: 80%;
+    margin: auto;
+    padding-top: 121px;
+    padding-bottom: 10px;
+}
+
+.main-page4 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.main-page4 .box4 {
+    width: 20%;
+    margin: 34px;
+    background-color: white;
+    height: 300px;
+}
+
+.box4 p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.box4 h2 {
+    margin-left: 174px;
+    margin-top: -3px;
+}
+
+/* page5 */
+#page5 {
+    background-image: url(facts-bg.jpg);
+}
+.main-page5 .remove-top{
+    margin-top: 50px;
+}
+.heading5 h1 {
+    position: absolute;
+    padding-top: 13px;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 91px;
+}
+
+.main-page5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* .main-page5 .boxs5 {width: 50%;} */
+.mbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 54px;
+    padding-top: 160px;
+    padding-bottom: 90px;
+}
+
+.box5 {
+    width: 30%;
+    padding: 52px 0px 22px 43px;
+    background: #ffffff2b;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.boxs5 img {
+    width: 70%;
+    border-radius: 27px;
+    margin-top: 58px;
+}
+
+.box5 h1 {
+    color: #ef950f;
+    font-size: 31px;
+    font-weight: 800;
+    font-family: system-ui;
+}
+
+.box5 h3 {
+    color: white;
+    font-family: system-ui;
+}
+
+/* page6 */
+#page6 {
+    background-image: url(meetings-bg.jpg);
+}
+
+.main-page6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading6 h1 {
+    padding-left: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 33px;
+}
+
+.form {
+    background-color: white;
+    width: 55%;
+    /* height: 400px; */
+    padding: 18px;
+    margin-left: 81px;
+    margin-top: 135px;
+    border-radius: 9px;
+    margin-bottom: 120px;
+}
+
+.form input {
+    padding: 7px 19px;
+    outline: none;
+    margin-left: 27px;
+    margin-top: 65px;
+    background-color: beige;
+    border: none;
+}
+
+.message input {
+    padding: 40px 220px;
+    outline: none;
+    margin-left: 27px;
+    margin-top: 38px;
+    background-color: beige;
+    border: none;
+    margin-bottom: 21px;
+}
+
+.form a {
+    padding: 10px 15px;
+    background-color: #c12121;
+    border-radius: 29px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 38px;
+}
+
+.box6 {
+    padding: 35px;
+    margin-right: 246px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    line-height: 44px;
+    height: 397px;
+    margin-top: 96px;
+    border-radius: 17px;
+    font-family: system-ui;
+}
